@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "shadow-cljs": "^2.8.46"
+    "shadow-cljs": "^2.8.47"
   }
 }

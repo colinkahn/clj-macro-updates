@@ -7,8 +7,10 @@
 #?(:clj
    (do
 
+(def m {:foo settings/foo :bar settings/bar :baz settings/baz})
+
 (defmacro compiled-string []
-  `(do ~(pr-str {:foo settings/foo :bar settings/bar :baz settings/baz})))
+  `(do ~(pr-str m)))
 
 ))
 
